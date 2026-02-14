@@ -1,0 +1,88 @@
+{
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9207,
+      "AUC": 0.9934,
+      "Precision": 0.9215,
+      "Recall": 0.9207,
+      "F1 Score": 0.9209,
+      "MCC": 0.9042
+    },
+    "Decision Tree": {
+      "Accuracy": 0.8942,
+      "AUC": 0.934,
+      "Precision": 0.8942,
+      "Recall": 0.8942,
+      "F1 Score": 0.8941,
+      "MCC": 0.8722
+    },
+    "KNN": {
+      "Accuracy": 0.9137,
+      "AUC": 0.9837,
+      "Precision": 0.9144,
+      "Recall": 0.9137,
+      "F1 Score": 0.9139,
+      "MCC": 0.8956
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.8979,
+      "AUC": 0.9902,
+      "Precision": 0.9007,
+      "Recall": 0.8979,
+      "F1 Score": 0.8981,
+      "MCC": 0.8773
+    },
+    "Random Forest": {
+      "Accuracy": 0.9207,
+      "AUC": 0.9914,
+      "Precision": 0.9209,
+      "Recall": 0.9207,
+      "F1 Score": 0.9207,
+      "MCC": 0.9041
+    },
+    "XGBoost": {
+      "Accuracy": 0.9229,
+      "AUC": 0.9933,
+      "Precision": 0.9231,
+      "Recall": 0.9229,
+      "F1 Score": 0.9229,
+      "MCC": 0.9067
+    }
+  },
+  "class_names": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "feature_names": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRatio",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "Roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "dataset_info": {
+    "name": "Dry Bean Dataset",
+    "source": "UCI Machine Learning Repository",
+    "total_instances": 13611,
+    "total_features": 16,
+    "num_classes": 7,
+    "train_size": 10888,
+    "test_size": 2723
+  }
+}
