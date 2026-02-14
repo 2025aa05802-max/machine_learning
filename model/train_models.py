@@ -95,7 +95,7 @@ models = {
     ),
     'Naive Bayes': GaussianNB(),
     'Random Forest': RandomForestClassifier(
-        n_estimators=200, random_state=42, n_jobs=-1
+        n_estimators=100, random_state=42, n_jobs=-1
     ),
     'XGBoost': XGBClassifier(
         n_estimators=200, random_state=42, use_label_encoder=False,
@@ -212,3 +212,4 @@ for metric in ['Accuracy', 'AUC', 'Precision', 'Recall', 'F1 Score', 'MCC']:
 print("\n✅ All models trained and saved successfully!")
 print(f"📁 Models saved in: {model_dir}")
 print(f"📊 Results saved in: {results_path}")
+
