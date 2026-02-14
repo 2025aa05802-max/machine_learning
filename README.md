@@ -53,10 +53,8 @@ project-folder/
 │── app.py                  # Streamlit web application
 │── requirements.txt        # Python dependencies
 │── README.md               # Project documentation
-│── download_data.py        # Script to download dataset
 │── data/
-│   ├── dry_bean.csv        # Full dataset
-│   └── dry_bean_test.csv   # Test split for app demo
+│   ├── dry_bean_upload.csv # For upload
 │── model/
 │   ├── train_models.py     # Model training script
 │   ├── results.json        # Evaluation metrics (JSON)
@@ -79,9 +77,10 @@ streamlit run app.py
 
 ## Live App
 
-[Click here to open the Streamlit App](#) *(update with deployed link)*
+https://machinelearning-knvkwzrrlbvhhfu7mdb7ke.streamlit.app/ 
 
 ## References
 
 - Koklu, M. and Ozkan, I.A., 2020. Multiclass classification of dry beans using computer vision and machine learning techniques. *Computers and Electronics in Agriculture*, 174, 105507.
 - [UCI Machine Learning Repository — Dry Bean Dataset](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset)
+
